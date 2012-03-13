@@ -73,6 +73,7 @@
 					<? endfor; ?>
 					</ul>
 					<div class="description"><?= $description ?> <?= $keyword ?> <?php echo '<?php require_once "reclame.php"; ?>'; ?></div>
+					<div class="end"></div>
 				</div>
 				<div class="see-also">
 					<h2>Похожие товары</h2>

@@ -1,3 +1,1 @@
-<div class="reclame" style="height: 400px">
-
-</div>
+<div class="reclame"></div>
