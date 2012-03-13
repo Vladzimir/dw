@@ -1,0 +1,565 @@
+/************************************************************/
+/*					[RESET DEFAULT STYLES]					*/
+/************************************************************/
+html, body
+{
+	width: 100%;
+	height: 100%;
+	padding: 0px;
+	margin: 0px;	
+}
+
+body
+{
+	background: #FFFFFF;
+	font: 14px/120% 'Arial';
+	color: #000000;
+}
+div, span, p, em, strong, ul, li, dl, dt, dd, form, fieldset, textarea, label, input, button,img, a, h1, h2, h3, h4, h5, h6, table, tr, td
+{
+	padding: 0px;
+	margin: 0px;
+	border: 0px;
+	outline: 0px;
+	list-style: none;
+	text-decoration: none;
+}
+
+/************************************************/
+/*					[CONTAINER]					*/
+/************************************************/
+
+.container .header-wrap
+{
+	background: url(../images/header-bg.png) repeat-x #CC0099;
+}
+
+/*
+.container .footer-wrap
+{
+	background-color: #000;
+}*/
+
+/************************************************/
+/*					[HEADER]					*/
+/************************************************/
+.header
+{
+	width: 790px;
+	height: 175px;
+	margin: auto;
+	padding: 25px 190px 0 300px;
+}
+
+.header img
+{
+	margin-left: 240px;
+}
+
+.header ul.social-networks
+{
+	float: right;
+	margin-top: 40px;
+}
+
+.header ul.social-networks li
+{
+	display: inline-block;
+	margin-left: 20px;
+	zoom: 1;			/* For IE7 */
+    *display: inline;	/* For IE7 */
+}
+
+.header ul.social-networks li a span.facebook, .header ul.social-networks li a span.twitter
+{	
+	display: block;
+	height: 55px;
+	width: 55px;
+}
+
+.header ul.social-networks li a span.facebook
+{
+	background: url(../images/facebook.png) no-repeat;
+}
+
+.header ul.social-networks li a span.twitter
+{
+	background: url(../images/twitter.png) no-repeat;
+}
+
+.header ul.nav
+{
+	margin-top: 33px;
+}
+
+.header ul.nav li
+{
+	display: inline-block;
+	line-height: 1em;
+	zoom: 1;			/* For IE7 */
+    *display: inline;	/* For IE7 */
+}
+
+.header ul.nav li a
+{
+	font-size: 15px;
+	color: #FFFFFF;
+	text-transform: uppercase;
+	padding: 4px 10px;
+}
+
+.header ul.nav li a:hover
+{
+	background: #FFFFFF;
+	color: #CC0099;
+}
+
+/************************************************/
+/*					[CONTENT]					*/
+/************************************************/
+.content
+{
+	width: 100%;
+	margin: auto;
+}
+
+/****************************************************************************************************/
+/*					[HOME | ABOUT | CONTACT | PRIVACY | TERMS | PRODUCT | SITEMAP]					*/
+/****************************************************************************************************/
+.content .home, .about, .contact, .privacy, .terms, .product, .sitemap
+{
+	width: 960px;
+	margin: auto;
+	padding: 20px;
+}
+
+.content .home h1, .about h1, .contact h1, .privacy h1, .terms h1
+{
+	padding-bottom: 20px;
+	font: 600 33px/100% "Myriad Pro";
+	color: #D80B0B;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+.content .home h2, .about h2, .contact h2, .privacy h2, .terms h2
+{
+	font-size: 16px;
+	color: #666666;
+	line-height: normal;
+	padding-bottom: 15px;
+}
+
+.content .home p, .about p, .contact p, .privacy p, .terms p
+{
+	color: #333333;
+	text-align: justify;
+	padding-bottom: 10px;
+}
+
+/************************************************/
+/*					[PRODUCT]					*/
+/************************************************/
+.content .product .large-box
+{
+	width: 261px;
+	height:	399px;
+	border: 1px solid #FF6633;
+	border-left: 15px solid #FF6633; 
+	float: left;
+	margin-right: 42px;
+}
+
+.content .product .large-box img 
+{
+	width: 261px;
+	height: 399px;
+	cursor: move;
+}
+
+.content .product ul
+{
+	float: left;
+}
+
+.content .product ul li
+{
+	display: inline-block;
+	text-align: center;
+	vertical-align: top;
+	width: 161px;
+	border-color: #CC0099;
+	border-style: solid;
+	border-width: 1px 1px 1px 5px;
+	margin-right: 20px;
+}
+
+.content .product ul li:last-child
+{
+	margin: 0;
+}
+
+.content .product ul li img
+{
+	width: 155px;
+	height: 226px;
+}
+
+.content .product ul li h2
+{
+	font-size: 12px;
+	font-weight: normal;
+	line-height: 1.3em;
+	padding: 5px 0;
+}
+
+.content .product .tpb
+{
+	float: right;
+	border-bottom: 1px solid #CC0099;
+	text-align: right;
+}
+
+.content .product .tpb h1
+{
+	width: 240px;
+	margin-bottom: 10px;
+	border-left: 10px solid #FF6633;
+	padding-left: 10px;
+	font-size: 22px;
+	line-height: normal;
+	color: #CC0099;
+	text-align: left;
+}
+
+.content .product .tpb p
+{
+	font-size: 16px;
+	padding: 10px 0;
+	border-top: 1px solid #CC0099;
+	border-bottom: 1px solid #CC0099;
+}
+
+.content .product .tpb span
+{
+	font-size: 20px;
+	color: #FF6633;
+}
+
+.content .product .tpb span.price
+{
+	font-size: 22px;
+}
+
+.content .product .tpb button
+{
+	background-color: #FFFFFF;
+	font-size: 16px;
+	padding: 10px 0;
+	cursor: pointer;
+}
+
+.content .product .tpb img.admitad
+{
+	display: none; 
+}
+
+.content .product .description
+{
+	float: left;
+	margin: -115px 0 80px 316px;
+	border: 1px solid #CCCCCC;
+	padding: 15px;
+	color: #333333;
+	text-align: justify;
+}
+
+/********************************************/
+/*					[SEE ALSO]				*/
+/********************************************/
+.content .see-also
+{
+	width: 930px;
+	margin: auto;
+	padding: 0 15px;
+	clear: both;
+}
+
+.content .see-also h2
+{
+	border-left: 10px solid #CC0099;
+	border-bottom: 1px solid #CC0099;
+	font-size: 22px;
+	line-height: 1.2em;
+	font-weight: normal;
+	color: #CC0099;
+	text-transform: uppercase;
+	padding-left: 10px;
+}
+
+.content .see-also ul
+{
+	padding: 20px 90px;
+}
+
+.content .see-also ul li
+{
+	display: inline-block;
+	border: 1px solid #CC0099;
+	vertical-align: top;
+	text-align: center;
+	width: 150px;
+	padding-bottom: 20px;
+	margin: 0 30px 20px 0;
+	zoom: 1;			/* For IE7 */
+    *display: inline;	/* For IE7 */
+}
+
+.content .see-also ul li:hover
+{
+	border: 1px solid #FF3366;
+}
+
+.content .see-also ul li img
+{
+	width: 138px;
+	height: 206px;
+	margin: 6px;
+	cursor: pointer;
+}
+
+.content .see-also ul li.large
+{
+	width: 336px;
+	height: 400px;
+}
+
+.content .see-also ul li.large img
+{
+	width: 275px;
+	height: 325px;
+	cursor: pointer;
+}
+
+.content .see-also ul li h3, .content .see-also ul li span
+{
+	display: block;
+	font-size: 12px;
+	font-weight: normal;
+	line-height: normal;
+	padding: 10px 0;
+}
+
+.content .see-also ul li p
+{
+	font-size: 14px;
+	color: #FF0000;
+}
+
+.content .see-also ul li span.price
+{
+	display: inline;
+	font-size: 22px;
+}
+
+/************************************************/
+/*					[COMMENTS]					*/
+/************************************************/
+.content .comments
+{
+	width: 960px;
+	margin: 0 auto 20px;
+	border-bottom: 1px dashed #999999;
+}
+
+.content .comments h2
+{
+	border-left: 10px solid #CC0099;
+	border-bottom: 1px solid #CC0099;
+	font-size: 22px;
+	line-height: 1.2em;
+	font-weight: normal;
+	color: #CC0099;
+	text-transform: uppercase;
+	padding-left: 10px;
+}
+
+.content .comments ul.comment
+{
+	padding: 20px 40px;
+}
+
+.content .comments ul.comment li
+{
+	min-height: 122px;
+	border-bottom: 1px dashed #CCCCCC;
+	margin-bottom: 20px;
+}
+
+.content .comments ul.comment li img
+{
+	width: 100px;
+	height: 100px;
+	padding: 10;
+	border: 1px solid #CCCCCC;
+	float: right;
+}
+
+.content .comments ul.comment li p
+{
+	margin: 10px 122px 0 0;
+	border-left: 10px solid #CCCCCC;
+	padding: 10px 30px 10px 10px;
+	font-size: 13px;
+	text-align: justify;
+}
+
+.content .comments span.feedback
+{
+	border-left: 10px solid #CC0099;
+	border-bottom: 1px solid #CC0099;
+	font-size: 22px;
+	line-height: 1.2em;
+	font-weight: normal;
+	color: #CC0099;
+	text-transform: uppercase;
+	padding-left: 10px;
+	display: block;
+}
+
+.content .comments form
+{
+	padding: 20px 0 10px;
+}
+
+.content .comments form table
+{
+	margin: auto;
+}
+
+.content .comments form td
+{
+	padding-bottom: 10px;
+}
+
+.content .comments form td img
+{
+	vertical-align: top;
+}
+
+.content .comments form td input
+{
+	padding: 10px 12px;
+	background: #EEEFF0;
+	font: 11px/120% "Arial";
+	color: #333333;
+	background: #FFFFFF;
+	text-transform: uppercase;
+	border: 1px solid #9A9A9A;
+	border-radius: 4px;
+}
+
+.content .comments form td input[name=author]
+{
+	width: 450px;
+}
+
+.content .comments form td textarea
+{
+	width: 450px;
+	padding: 10px 12px;
+	background-color: #E3E3E3;
+	color: #333333;
+	border: 1px solid #9A9A9A;
+	border-radius: 4px;
+}
+
+.content .comments form td input.error, .content .comments form td textarea.error
+{
+	border: 1px solid #FF0000;
+	background: #FFEEEE;
+}
+
+.content .comments form td button
+{
+	padding: 8px 12px;
+	background: #FFFFFF;
+	color: #333333;
+	text-transform: uppercase;
+	border: 1px solid #9A9A9A;
+	border-radius: 4px;
+	float: right;
+	cursor: pointer;
+}
+
+/************************************************/
+/*					[SITEMAP]					*/
+/************************************************/
+.content .sitemap h2
+{
+	padding-bottom: 20px;
+	font: 600 33px/97% "Myriad Pro";
+	color: #D80B0B;
+	text-transform: uppercase;
+	text-align: center;
+}
+
+.content .sitemap a
+{
+	color: #D80B0B;
+}
+
+.content .sitemap ul li
+{
+	margin-bottom: 10px;
+}
+
+.content .sitemap ul li:before
+{
+	content: '» ';
+}
+
+/************************************************/
+/*					[FOOTER]					*/
+/************************************************/
+.footer
+{
+	width: 890px;
+	height: 150px;
+	margin: auto;
+	padding: 0 40px 0 30px;
+}
+
+.footer img.logo
+{
+	float: right;
+}
+
+.footer ul.nav
+{	
+	float: right;
+	margin: 20px 45px 0 0;
+}
+
+.footer ul.nav li
+{
+	text-align: right;
+}
+
+.footer ul.nav li a
+{
+	font-size: 12px;
+	color: #666666;
+}
+
+.footer ul.nav li a:hover
+{
+	color: #D80B0B;
+}
+
+.footer .copyright
+{
+	padding: 20px 0 15px;
+	font-size: 12px;
+	color: #666666;
+}

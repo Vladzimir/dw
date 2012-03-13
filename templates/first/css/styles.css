@@ -1,0 +1,572 @@
+/************************************************************/
+/*					[RESET DEFAULT STYLES]					*/
+/************************************************************/
+html, body
+{
+	width: 100%;
+	height: 100%;
+	padding: 0px;
+	margin: 0px;	
+}
+
+body
+{
+	background: #FFFFFF;
+	font: 14px/120% 'Verdana';
+	color: #000000;
+}
+
+div, span, p, em, strong, ul, li, dl, dt, dd, form, fieldset, textarea, label, input, button,img, a, h1, h2, h3, h4, h5, h6, table, tr, td
+{
+	padding: 0px;
+	margin: 0px;
+	border: 0px;
+	outline: 0px;
+	list-style: none;
+	text-decoration: none;
+}
+
+/************************************************/
+/*					[CONTAINER]					*/
+/************************************************/
+.container .header-wrap
+{
+	background: url(../images/header-nav-bg.png) bottom repeat-x #FFF;
+}
+
+.container .footer-wrap
+{
+	background-color: #000;
+}
+
+/************************************************/
+/*					[HEADER]					*/
+/************************************************/
+.header
+{
+	width: 1280px;
+	height: 162px;
+	margin: auto;
+	background: url(../images/header-bg.png) no-repeat;
+}
+
+ .header img
+{
+	margin: 10px 0 0 166px;
+}
+
+.header ul.social-networks
+{
+	float: right;
+	margin: 33px 166px 0 0;
+}
+
+.header ul.social-networks li
+{
+	display: inline-block;
+	margin-left: 9px;
+}
+
+.header ul.social-networks li a span.facebook, .header ul.social-networks li a span.twitter
+{	
+	display: block;
+	height: 25px;
+	width: 25px;
+}
+
+.header ul.social-networks li a span.facebook
+{
+	background: url(../images/facebook.png) no-repeat;
+}
+
+.header ul.social-networks li a span.twitter
+{
+	background: url(../images/twitter.png) no-repeat;
+}
+
+.header ul.nav
+{
+	margin: 4px 0 0 166px;
+}
+
+ .header ul.nav li
+{
+	border-left: 1px solid #656565;
+	display: inline-block;
+	line-height: 1em;
+	margin: 20px 0;
+}
+
+.header ul.nav li a
+{
+	font-weight: bold;
+	font-size: 15px;
+	color: #FFFFFF;
+	text-transform: uppercase;
+	padding: 0px 20px;
+}
+
+.header ul.nav li a:hover
+{
+	color: #D80B0B;
+}
+
+/************************************************/
+/*					[CONTENT]					*/
+/************************************************/
+.content
+{
+	width: 100%;
+	margin: auto;
+}
+
+/****************************************************************************************************************/
+/*					[HOME | ABOUT | CONTACT | PRIVACY | TERMS | PRODUCT | SITEMAP | RECLAME]					*/
+/****************************************************************************************************************/
+.content .home, .about, .contact, .privacy, .terms, .product, .sitemap, .reclame
+{
+	width: 960px;
+	margin: auto;
+	padding: 20px;
+}
+
+.content .home h1, .about h1, .contact h1, .privacy h1, .terms h1
+{
+	padding-bottom: 20px;
+	font: 600 33px/100% "Myriad Pro";
+	color: #D80B0B;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+.content .home h2, .about h2, .contact h2, .privacy h2, .terms h2
+{
+	font-size: 16px;
+	color: #666666;
+	line-height: normal;
+	padding-bottom: 15px;
+}
+
+.content .home p, .about p, .contact p, .privacy p, .terms p
+{
+	color: #333333;
+	text-align: justify;
+	padding-bottom: 10px;
+}
+
+/************************************************/
+/*					[PRODUCT]					*/
+/************************************************/
+.content .product .large-box
+{
+	background: url(../images/product-large-box.png) no-repeat;
+	width: 255px;
+	height:	380px;
+	padding: 14px 40px 30px 13px;
+	float: left;
+}
+
+.content .product .large-box img 
+{
+	width: 259px;
+	height: 380px;
+	cursor: move;
+}
+.content .product .tpb
+{
+	width: 650px;
+	float: left;
+	font-weight: 600;
+	font-family: "Century Gothic";
+	line-height: normal;
+}
+
+.content .product .tpb h1
+{
+	color: #D80B0B;
+}
+
+.content .product .tpb p
+{
+	font-size: 19px;
+	color: #333333;
+	padding: 10px 0;
+}
+
+.content .product .tpb span
+{
+	font-size: 22px;
+	color: #D80B0B;
+}
+
+.content .product .tpb span.price
+{
+	font-size: 27px;
+}
+
+.content .product .tpb button
+{
+	background: url(../images/product-button.png) no-repeat;
+	height: 40px;
+	width: 214px;
+	font: bold 17px/120% "Verdana";
+	text-transform: uppercase;
+	color: #FFFFFF;
+	cursor: pointer;
+}
+
+.content .product .tpb img.admitad
+{
+	display: none; 
+}
+
+.content .product ul
+{
+	float: left;
+	padding: 10px 0;
+}
+
+.content .product ul li
+{
+	display: inline-block;
+	text-align: center;
+	vertical-align: top;
+	width: 200px;
+	zoom: 1;			/* For IE7 */
+    *display: inline;	/* For IE7 */
+}
+
+.content .product ul li span.small-box
+{
+	display: block;
+	background: url(../images/product-small-box.png) no-repeat;
+	width: 143px;
+	height: 213px;
+	padding: 9px;
+}
+
+.content .product ul li span.small-box img 
+{
+	width: 143px;
+	height: 213px;
+}
+
+.content .product ul li h2
+{
+	font: 600 18px/100% "Century Gothic";
+	color: #333333;
+	padding: 8px 40px 0 0;
+}
+
+.content .product .description
+{
+	clear: both;
+	color: #333333;
+	text-align: justify;
+}
+
+/********************************************/
+/*					[SEE ALSO]				*/
+/********************************************/
+.content .see-also-wrap
+{
+	border-top: 1px solid #000;
+}
+
+.content .see-also
+{
+	width: 820px;
+	margin: auto;
+}
+
+.content .see-also h2
+{
+	border-top: 8px solid #D80B0B;
+	font: 600 26px/120% "Myriad Pro";
+	text-transform: uppercase;
+	text-align: center;
+}
+
+.content .see-also ul
+{
+	padding: 20px 0;
+}
+
+.content .see-also ul li
+{
+	display: inline-block;
+	vertical-align: top;
+	text-align: center;
+	width: 200px;
+	padding-bottom: 20px;
+	font-family: "Century Gothic";
+	font-weight: 600;
+	zoom: 1;			/* For IE7 */
+    *display: inline;	/* For IE7 */
+}
+
+.content .see-also ul li.large
+{
+	width: 400px;
+}
+
+.content .see-also ul li span.large-box
+{
+	display: inline-block;
+	background: url(../images/see-also-large-box.png) no-repeat;
+	width: 255px;
+	height: 380px;
+	padding: 15px;
+}
+
+.content .see-also ul li span.large-box img
+{
+	width: 255px;
+	height: 380px;
+	cursor: pointer;
+}
+
+.content .see-also ul li span.small-box
+{
+	display: inline-block;
+	background: url(../images/see-also-small-box.png) no-repeat;
+	width: 132px;
+	height: 200px;
+	padding: 8px;
+}
+
+.content .see-also ul li span.small-box img
+{
+	width: 132px;
+	height: 200px;
+	cursor: pointer;
+}
+
+.content .see-also ul li h3, .content .see-also ul li span
+{
+	display: block;
+	font-size: 18px;
+	font-weight: 700;
+	line-height: normal;
+	color: #333333;
+	padding: 10px;
+}
+
+.content .see-also ul li p
+{
+	font-size: 14px;
+	color: #FF0000;
+}
+
+.content .see-also ul li span.price
+{
+	display: inline;
+	font-size: 22px;
+	font-weight: normal;
+	color: #FF0000;
+	padding: 0;
+}
+
+/************************************************/
+/*					[COMMENTS]					*/
+/************************************************/
+.content .comments-wrap
+{
+	border-top: 1px solid #000;
+}
+
+.content .comments
+{
+	width: 820px;
+	margin: auto;
+}
+
+.content .comments h2
+{
+	border-top: 8px solid #D80B0B;
+	font: 600 26px/120% "Myriad Pro";
+	text-align: center;
+	text-transform: uppercase;
+}
+
+.content .comments ul.comment
+{
+	padding: 20px 0;
+}
+
+.content .comments ul.comment li
+{
+	min-height: 120px;
+}
+
+.content .comments ul.comment li span
+{
+	display: block;
+	background: #900;
+	font-weight: bold;
+	color: #FFFFFF;
+	padding: 10px 5px 10px 10px;
+}
+
+.content .comments ul.comment li img
+{
+	float: left;
+	width: 66px;
+	height: 66px;
+	padding: 9px 7px;
+}
+
+.content .comments ul.comment li p
+{
+	font: 12px/120% "Verdana";
+	padding: 22px 15px 30px 89px;
+	text-align: justify;
+}
+
+.content .comments span.feedback
+{
+	font: 600 20px/120% "Century Gothic";
+	text-transform: uppercase;
+}
+
+.content .comments form
+{
+	padding: 20px 0 10px;
+}
+
+.content .comments form td
+{
+	padding-bottom: 10px;
+}
+
+.content .comments form td.required
+{
+	color: #990000;
+	vertical-align: top;
+	padding: 2px 6px;
+}
+
+.content .comments form td img
+{
+	vertical-align: top;
+}
+
+.content .comments form td input, .content .comments form td textarea
+{
+	padding: 10px 12px;
+	background: #EEEFF0;
+	font: 11px/120% "Arial";
+	color: #5B5B5C;
+	border: 1px solid #B7B7B7;
+	border-radius: 4px;
+}
+
+.content .comments form td input[name=author]
+{
+	width: 400px;
+	text-transform: uppercase;
+}
+
+.content .comments form td textarea
+{
+	width: 400px;
+	height: 100px;
+}
+
+.content .comments form td input.error, .content .comments form td textarea.error
+{
+	border: 1px solid #FF0000;
+	background: #FFEEEE;
+}
+
+.content .comments form td button
+{
+	margin-left: 20px;
+	background: url(../images/comment-button.png) no-repeat;
+	height: 32px;
+	width: 211px;
+	font: bold 12px/120% "Verdana";
+	color: #FFFFFF;
+	cursor: pointer;
+}
+
+/************************************************/
+/*					[SITEMAP]					*/
+/************************************************/
+.content .sitemap h2
+{
+	font: 600 33px/97% "Myriad Pro";
+	color: #D80B0B;
+	text-align: center;
+	text-transform: uppercase;
+	padding-bottom: 20px;
+}
+
+.content .sitemap a
+{
+	color: #D80B0B;
+}
+
+.content .sitemap ul li
+{
+	margin-bottom: 10px;
+}
+
+.content .sitemap ul li:before
+{
+	content: '» ';
+}
+
+/************************************************/
+/*					[FOOTER]					*/
+/************************************************/
+.footer
+{
+	width: 940px;
+	height: 170px;
+	margin: auto;
+	font-weight: 600;
+	color: #FFFFFF;
+	padding: 30px 0 0 20px;
+}
+
+.footer img.logo
+{
+	float: left;
+}
+
+.footer ul.nav
+{
+	margin-left: 210px;
+	padding-top: 15px;
+}
+
+.footer ul.nav li
+{
+	border-right: 1px solid #656565;	
+	display: inline-block;
+	zoom: 1;			/* For IE7 */
+    *display: inline;	/* For IE7 */
+}
+
+.footer ul.nav li:last-child
+{
+	border: none;
+}
+
+.footer ul.nav li a
+{
+	padding: 0 20px;
+	color: #FFFFFF;
+}
+
+.footer ul.nav li a:hover
+{
+	color: #D80B0B;
+}
+
+.footer .copyright
+{
+	clear: both;
+	padding: 15px 0;
+}

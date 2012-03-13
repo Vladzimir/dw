@@ -1,0 +1,540 @@
+/************************************************************/
+/*					[RESET DEFAULT STYLES]					*/
+/************************************************************/
+html, body
+{
+	width: 100%;
+	height: 100%;
+	padding: 0px;
+	margin: 0px;	
+}
+
+body
+{
+	background: #FFFFFF;
+	font: 14px/120% 'Arial';
+	color: #000000;
+}
+
+div, span, p, em, strong, ul, li, dl, dt, dd, form, fieldset, textarea, label, input, button,img, a, h1, h2, h3, h4, h5, h6, table, tr, td
+{
+	margin: 0px;
+	border: 0px;
+	padding: 0px;
+	outline: 0px;
+	list-style: none;
+	text-decoration: none;
+}
+
+/************************************************/
+/*					[CONTAINER]					*/
+/************************************************/
+.container
+{
+	background: url(../images/container-bg.png) repeat-x #FFFFFF;
+}
+
+.container .content-wrap
+{
+	width: 954px;
+	border: 3px solid #FFFFFF;
+	border-radius: 2px;
+	margin: auto;
+}
+
+.container .footer-wrap
+{
+	background: url(../images/footer-bg.png) bottom repeat-x #FFFFFF;
+}
+
+/************************************************/
+/*					[HEADER]					*/
+/************************************************/
+.header
+{
+	width: 950px;
+	height: 128px;
+	margin: auto;
+	padding: 6px 0 0 10px;
+	position: relative;
+}
+
+.header img.logo
+{
+	float: left;
+}
+
+.header ul.nav
+{
+	float: left;
+	margin: 52px 0 0 75px;
+}
+
+.header ul.nav li
+{
+	display: inline-block;
+	margin-right: 45px;
+}
+
+.header ul.nav li:last-child
+{
+	margin: 0;
+}
+
+.header ul.nav li a
+{
+	font-size: 18px;
+	line-height: 1.5em;
+	color: #FFFFFF;
+	text-shadow: #000000 1px 1px 2px;
+}
+
+.header ul.social-networks
+{
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	margin: 0 -25px -110px 0;
+}
+
+.header ul.social-networks li
+{
+	margin-bottom: 10px;
+}
+
+.header ul.social-networks li a span.facebook, .header ul.social-networks li a span.twitter
+{	
+	display: block;
+	width: 24px;
+	height: 30px;
+}
+
+.header ul.social-networks li a span.facebook
+{
+	background: url(../images/facebook.png) no-repeat;
+}
+
+.header ul.social-networks li a span.twitter
+{
+	background: url(../images/twitter.png) no-repeat;
+}
+
+/************************************************/
+/*					[CONTENT]					*/
+/************************************************/
+.content
+{
+	width: 910px;
+	border: 5px solid #F5DAB2;
+	margin: auto;
+	padding: 19px 17px;
+	background-color: #FFFFFF;
+}
+
+/****************************************************************************************************/
+/*					[HOME | SITEMAP | CONTACT | ABOUT | PRIVACY | TERMS | RECLAME]					*/
+/****************************************************************************************************/
+.content .home, .sitemap, .contact, .about, .privacy, .terms, .reclame
+{
+	width: 100%;
+}
+
+.content .home h1, .sitemap h1, .contact h1, .about h1, .privacy h1, .terms h1
+{
+	padding-bottom: 20px;
+	font: 24px/120% "Georgia";
+	color: #784E10;
+	text-transform: uppercase;
+	text-align: center;
+}
+
+.content .home h2, .sitemap h2, .contact h2, .about h2, .privacy h2, .terms h2
+{
+	padding-bottom: 15px;
+	font-size: 20px;
+	line-height: normal;
+	color: #666666;
+}
+
+.content .home p, .sitemap p, .contact p, .about p, .privacy p, .terms p
+{
+	padding-bottom: 10px;
+	color: #333333;
+	text-align: justify;
+}
+
+/************************************************/
+/*					[SITEMAP]					*/
+/************************************************/
+.content .sitemap ul li
+{
+	margin-bottom: 10px;
+}
+
+.content .sitemap ul li a
+{
+	color: #784E10;
+}
+
+.content .sitemap ul li:before
+{
+	content: '» ';
+}
+
+/************************************************/
+/*					[PRODUCT]					*/
+/************************************************/
+.content .product img
+{
+	width: 266px;
+	height: 400px;
+	margin: 0 15px 15px 0;
+	border: 1px solid #70B770;
+	float: left;
+	cursor: move;
+}
+
+.content .product .tpb
+{
+	margin: 0 0 10px 282px;
+}
+
+.content .product .tpb h1
+{
+	border-bottom: 1px solid #784E10;
+	font: italic 32px/120% "Georgia";
+	color: #784E10;
+}
+
+.content .product .tpb p
+{
+	margin: 10px 20px 10px 0;
+	float: left;
+	font: 22px/100% "Georgia";
+	color: #333333;
+}
+
+.content .product .tpb span
+{
+	font-size: 24px;
+	line-height: normal;
+	color: #990033;
+}
+
+.content .product .tpb span.price
+{
+	font-size: 28px;
+	line-height: normal;
+}
+
+.content .product .tpb button
+{
+	margin-top: 10px;
+	width: 155px;
+	height: 36px;
+	background: url(../images/product-button.png) no-repeat;
+	font: 18px/120% "Georgia";
+	color: #FFFFFF;
+	cursor: pointer;
+}
+
+.content .product .tpb img.admitad
+{
+	display: none;
+}
+
+.content .product ul
+{
+	float: left;
+}
+
+.content .product ul li
+{
+	display: inline-block;
+	text-align: center;
+	vertical-align: top;
+}
+
+.content .product ul li img
+{
+	width: 151px;
+	height: 227px;
+	border: 1px solid #CFE7CF;
+	cursor: pointer;
+}
+
+.content .product ul li h2
+{
+	font-size: 18px;
+    font-weight: normal;
+    line-height: normal;
+}
+
+.content .product .description
+{
+	margin-left: 625px;
+	border: 1px solid #70B770;
+	padding: 5px;
+	background-color: #F8E5C9;
+	font-size: 12px;
+	line-height: 1.5em;
+	text-align: justify;
+}
+
+/************************************************/
+/*					[SEE ALSO]					*/
+/************************************************/
+.content .see-also
+{
+	margin: 20px 0;
+	clear: both;
+}
+
+.content .see-also h2
+{
+	border-bottom: 1px solid #784E10;
+	font: italic 24px/120% "Georgia";
+	color: #784E10;
+}
+
+.content .see-also ul
+{
+	margin-top: 30px;
+	padding: 0 45px;
+}
+
+.content .see-also ul li
+{
+	display: inline-block;
+	width: 140px;
+	margin: 0 20px 20px;
+	border: 1px solid #F5DAB2;
+	padding: 10px;
+	text-align: center;
+	vertical-align: top;
+}
+
+.content .see-also ul li:hover
+{
+	border: 1px solid #339933;
+}
+
+.content .see-also ul li h3, .content .see-also ul li span
+{
+	font-size: 18px;
+	font-weight: normal;
+	line-height: normal;
+}
+
+.content .see-also ul li img
+{
+	width: 138px;
+	height: 206px;
+	margin-top: 5px;
+	cursor: pointer;
+}
+
+.content .see-also ul li p
+{
+	padding: 8px 0;
+	background: url(../images/see-also-price-bg.png) repeat-x;
+	color: #FFFFFF;
+}
+
+.content .see-also ul li span
+{
+	font-size: 20px;
+	line-height: 16.8px;
+}
+
+.content .see-also ul li span.price
+{
+	font-size: 26px;
+}
+
+.content .see-also ul li.large
+{
+	width: 280px;
+	height: 380px;
+	margin: 0 52px 20px; 
+}
+
+.content .see-also ul li.large img
+{
+	width: 238px;
+	height: 306px;
+}
+
+/************************************************/
+/*					[COMMENTS]					*/
+/************************************************/
+.comments
+{
+	margin: 20px 0;
+}
+
+.content .comments h2
+{
+	border-bottom: 1px solid #784E10;
+	font: italic 24px/120% "Georgia";
+	color: #784E10;
+}
+
+.content .comments ul
+{
+	margin-top: 30px;
+	padding: 0 25px;
+}
+
+.content .comments ul li
+{
+	min-height: 82px;
+	border: 1px solid #F5DAB2;
+	padding: 20px;
+	margin-bottom: 20px;
+	text-align: right;
+}
+
+.content .comments ul li span
+{
+	max-width: 150px;
+	font-size: 12px;
+	line-height: 1.5em;
+	color: #784E10;
+	float: right;
+}
+
+.content .comments ul li img
+{
+	width: 68px;
+	height: 68px;
+	margin-right: 10px;
+	padding: 5px;
+	border: 1px solid #F5DAB2;
+	float: right;
+}
+
+.content .comments ul li p
+{
+	margin-right: 250px;
+	font-size: 12px;
+	line-height: 1.35em;
+	color: #333333;
+	text-align: left;
+}
+
+.content .comments form
+{
+	width: 350px;
+	margin-left: 24px;
+	border: 1px solid #359A35;
+	border-radius: 4px;
+	padding: 10px;
+	background-color: #F8E5C9; 
+}
+
+.content .comments form td
+{
+	padding: 0 5px 10px 0;
+}
+
+.content .comments form td span.feedback
+{
+	font: italic 18px/120% "Georgia";
+	color: #333333;
+}
+
+.content .comments form td.required
+{
+	vertical-align: top;
+}
+
+.content .comments form td img
+{
+	width: 100px;
+	height: 50px;
+	margin-left: 12px;
+}
+
+.content .comments form td input, .content .comments form td textarea
+{
+	width: 300px;
+	border: 1px solid #359A35;
+	border-radius: 4px;
+	padding: 10px 12px;
+	background: #FFFFFF;
+	font: 13px/120% "Arial";
+	color: #333333;
+}
+
+.content .comments form td input.error, .content .comments form td textarea.error
+{
+	border: 1px solid #FF0000;
+	background: #FFEEEE;
+}
+
+.content .comments form td input[name=captcha]
+{
+	width: 40px;
+	margin: 0 10px;
+	vertical-align: top;
+}
+
+.content .comments form td button
+{
+	width: 130px;
+	height: 30px;
+	background: url(../images/comment-button.png) no-repeat;
+	font: 12px/120% "Arial";
+	color: #333333;
+	float: right;
+	cursor: pointer;
+}
+
+/************************************************/
+/*					[FOOTER]					*/
+/************************************************/
+.footer
+{
+	width: 940px;
+	height: 180px;
+	margin: auto;
+	padding: 14px 0 0 20px;
+}
+
+.footer img.logo
+{
+	width: 200px;
+	height: 80px;
+	float: left;
+}
+
+.footer ul.nav
+{
+	margin: 32px 0 0 43px;
+	float: left;
+}
+
+.footer ul.nav li
+{
+	display: inline-block;
+	margin-right: 55px;
+}
+
+.footer ul.nav li:last-child
+{
+	margin: 0;
+}
+
+.footer ul.nav li a
+{
+	font: 11px/120% "Verdana";
+	color: #333333;
+	text-shadow: #FFFFFF 1px 1px 20px;
+}
+
+.footer .copyright
+{
+	clear: both;
+	padding: 15px 0;
+}

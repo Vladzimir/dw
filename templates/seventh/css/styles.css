@@ -1,0 +1,478 @@
+/************************************************************/
+/*					[RESET DEFAULT STYLES]					*/
+/************************************************************/
+html, body
+{
+	width: 100%;
+	height: 100%;
+	padding: 0px;
+	margin: 0px;
+}
+
+body
+{
+	background: #FFFFFF;
+	font: 14px/120% 'Thebuchet MS';
+	color: #FFFFFF;
+}
+
+div, span, p, em, strong, ul, li, dl, dt, dd, form, fieldset, textarea, label, input, button, img, a, h1, h2, h3, h4, h5, h6, table, tr, td
+{
+	padding: 0px;
+	margin: 0px;
+	border: 0px;
+	outline: 0px;
+	list-style: none;
+	text-decoration: none;
+}
+
+/************************************************/
+/*					[CONTAINER]					*/
+/************************************************/
+.container
+{
+	background: url(../images/container-bg.png);
+}
+
+.container .footer-wrap
+{
+	background: url(../images/footer-wrap-bg.png) top repeat-x;
+}
+
+/************************************************/
+/*					[HEADER]					*/
+/************************************************/
+.header
+{
+	width: 960px;
+	height: 95px;
+	margin: auto;
+	padding: 25px 0 0 0;
+}
+
+.header img.logo
+{
+	margin-right: 50px;
+	float: left;
+}
+
+.header ul.nav
+{
+	margin-top: 20px;
+	border-bottom: 1px solid #666666;
+	float: left;
+}
+
+.header ul.nav li
+{
+	display: inline-block;
+	margin-right: 30px;
+	padding-bottom: 10px;
+}
+
+.header ul.nav li:last-child
+{
+	margin: 0;
+}
+
+.header ul.nav li a
+{
+	padding-bottom: 10px;
+	font-size: 16px;
+	color: #333333;
+}
+
+.header ul.nav li a:hover
+{
+	border-bottom: 4px solid #666666;
+}
+
+.header ul.social-networks
+{
+	float: right;
+	margin-top: 20px;
+}
+
+.header ul.social-networks li
+{
+	display: inline-block;
+	margin-right: 6px;
+}
+
+.header ul.social-networks li a span.facebook, .header ul.social-networks li a span.twitter
+{	
+	display: block;
+	height: 25px;
+	width: 25px;
+}
+
+.header ul.social-networks li a span.facebook
+{
+	background: url(../images/facebook.png) no-repeat;
+}
+
+.header ul.social-networks li a span.twitter
+{
+	background: url(../images/twitter.png) no-repeat;
+}
+
+/************************************************/
+/*					[CONTENT]					*/
+/************************************************/
+.content
+{
+	width: 940px;
+	margin: auto;
+	padding-bottom: 100px;
+}
+
+.content img.slider
+{
+	margin-bottom: 23px;
+}
+
+/************************************************/
+/*					[PRODUCT]					*/
+/************************************************/
+.content .product
+{
+	margin-bottom: 30px;
+	padding: 30px 20px;
+	background: url(../images/content-bg.png);
+}
+
+.content .product .tpb
+{
+	margin-bottom: 20px;
+	padding-bottom: 20px;
+	background: url(../images/content-line.png) bottom repeat-x;
+}
+
+.content .product .tpb h1
+{
+	display: inline-block;
+	width: 486px;
+	font: 23px/120% "Georgia";
+	text-shadow: #000000 1px 1px 2px;
+	vertical-align: middle;
+}
+
+.content .product .tpb p
+{
+	display: inline-block;
+	margin: 0 10px;
+	font: 18px/100% "Georgia";
+}
+
+.content .product .tpb p span.price
+{
+	font-size: 30px;
+}
+
+.content .product .tpb button
+{
+	width: 145px;
+	height: 37px;
+	background: url(../images/content-button.png) no-repeat;
+	vertical-align: middle;
+	cursor: pointer;
+}
+
+.content .product a.photo img
+{
+	width: 285px;
+	height: 440px;
+	margin: 0 20px 20px 0;
+	float: left;
+	cursor: move;
+}
+
+.content .product ul
+{
+	display: inline-block;
+	margin: 0 50px 0 0;
+}
+
+.content .product ul li
+{
+	width: 140px;
+	min-height: 182px;
+	margin-bottom: 20px;
+	padding: 10px;
+	border: 1px solid #999999;
+	text-align: center;
+}
+
+.content .product ul li:hover
+{
+	border: 1px solid #CCCCCC;
+}
+
+.content .product ul li a
+{
+	display: inline-block;
+	width: 140px;
+	height: 140px;
+	overflow: hidden;
+}
+
+.content .product ul li a img
+{
+	width: 140px;
+}
+
+.content .product ul li h2
+{
+	padding: 5px 0;
+	font: 11px/120% "Verdana";
+	font-weight: normal;
+}
+
+.content .product .description
+{
+	width: 330px;
+	padding-right: 40px;
+	font-size: 11px;
+	float: right;
+}
+
+.content .product .description strong
+{
+	display: inline-block;
+	width: 140px;
+}
+
+/************************************************/
+/*					[SEE ALSO]					*/
+/************************************************/
+.content .see-also
+{
+	width: 512px;
+	background: url(../images/content-bg.png);
+	float: left;
+}
+
+.content .see-also h2
+{
+	margin-top: 10px;
+	padding: 10px 20px;
+	font: 20px/100% "Georgia";
+	text-shadow: #000000 1px 1px 2px;
+}
+
+.content .see-also ul
+{
+	padding: 0 20px;
+}
+
+.content .see-also ul li
+{
+	display: inline-block;
+	width: 102px;
+	margin: 5px 6px;
+	padding-bottom: 5px;
+	vertical-align: top;
+	text-align: center;
+	color: #999999;
+}
+
+.content .see-also ul li:hover
+{
+	background-color: #4B4B4B; 
+}
+
+.content .see-also ul li img
+{
+	width: 100px;
+	height: 150px;
+	border: 1px solid #999999;
+	cursor: pointer;
+}
+
+.content .see-also ul li img:hover
+{
+	border: 1px solid #CCCCCC;
+}
+
+.content .see-also ul li.large
+{
+	width: 220px;
+}
+
+.content .see-also ul li.large img
+{
+	width: 220px;
+	height: 310px;
+	border: none;
+}
+
+.content .see-also ul li p
+{
+	padding: 5px;
+	font: 11px/120% "Tahoma";
+	color: #FFFFFF;
+}
+
+.content .see-also ul li p span.price
+{
+	font: 18px/120% "Georgia";
+	color: #FFFFFF;
+}
+
+.content .see-also ul li h3, .content .see-also ul li span
+{
+	padding: 0 5px;
+	font-size: 13px;
+	font-weight: normal;
+}
+
+/************************************************/
+/*					[COMMENTS]					*/
+/************************************************/
+.content .comments
+{
+	width: 392px;
+	background: url(../images/content-bg.png);
+	float: right;
+}
+
+.content .comments h2
+{
+	margin-top: 10px;
+	padding: 10px 20px;
+	font: 20px/100% "Georgia";
+	text-shadow: #000000 1px 1px 2px;
+}
+
+.content .comments ul li
+{
+	min-height: 60px;
+	padding: 20px;
+	font-size: 12px;
+}
+.content .comments ul li img
+{
+	width: 40px;
+	height: 40px;
+	float: right;
+	margin-left: 30px;
+}
+
+.content .comments ul li span
+{
+	margin-right: 70px;
+	font: 11px/1.5em "Tahoma";
+	float: right;
+}
+
+.content .comments ul p
+{
+	margin-right: 70px;
+	font-size: 12px;
+	line-height: 1.35em;
+	text-align: justify;
+}
+
+/********************************************/
+/*					[FORM]					*/
+/********************************************/
+.content .form
+{
+	width: 362px;
+	margin-top: 30px;
+	padding: 0 15px;
+	background: url(../images/content-bg.png);
+	float: right;
+}
+
+.content .form h2
+{
+	margin-top: 10px;
+	padding: 10px 5px;
+	font: 20px/100% "Georgia";
+	text-shadow: #000000 1px 1px 2px;
+}
+
+.content .form form p
+{
+	margin-bottom: 15px;
+}
+
+.content .form form img
+{
+	width: 100px;
+	height: 40px;
+	margin: 0 18px;
+	vertical-align: top;
+}
+
+.content .form form input, .content .form form textarea
+{
+	padding: 10px;
+	border: 1px solid #212121;
+	border-radius: 4px;
+	background-color: #555555;
+	font: 14px/120% "Trebuchet MS";
+	color: #FFFFFF;
+}
+
+.content .form form input[name=author]
+{
+	width: 340px;
+}
+
+.content .form form textarea
+{
+	width: 340px;
+	height: 100px;
+}
+
+.content .form form button
+{
+	width: 142px;
+	height: 36px;
+	background: url(../images/comments-button.png) no-repeat;
+	cursor: pointer;
+	vertical-align: top;
+}
+
+.content .end
+{
+	clear: both;
+}
+
+/************************************************/
+/*					[FOOTER]					*/
+/************************************************/
+.footer
+{
+	width: 940px;
+	height: 80px;
+	margin: auto;
+	padding-top: 40px;
+}
+
+.footer ul.nav
+{
+	float: right;
+}
+
+.footer ul.nav li
+{
+	display: inline-block;
+	padding: 0 30px 0 20px;
+	background: url(../images/footer-nav-dot.png) right no-repeat;
+	vertical-align: middle;
+}
+
+.footer ul.nav li:last-child
+{
+	background: none;
+	padding-right: 0;
+}
+
+.footer ul.nav li a
+{
+	font-size: 11px;
+	color: #333333;
+}

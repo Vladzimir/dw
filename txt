@@ -1,0 +1,61 @@
+garderob5.info
+promenad22.info
+sapato22.info
+topshoptop.info
+botinki77.info
+jeans44.info
+quelle95.info
+sapogi777.info
+shmotki95.info
+laredoute56.info
+
+
+!Брюки и Шорты
+!Платья
+!Блузу и Туники
+объеденяй в один файл - это будет первый сайт
+
+!Свитеры и кардиганы
+!Пальто куртки плащи
+
+Юбки
+Жакеты Жилеты
+Джинсовая мода
+
+Обувь
+Сумки и Аксессуары
+
+все остальное тоже объединяй вместе
+
+
+garderob5.info - shop.garderob5.info - store.garderob5.info
+shop.promenad22.info - store.promenad22.info - promenad22.info
+store.sapato22.info - sapato22.info - shop.sapato22.info
+
+
+garderob5.info
+shop.promenad22.info
+store.sapato22.info
+
+
+shop.garderob5.info
+store.promenad22.info
+sapato22.info
+
+
+store.garderob5.info
+promenad22.info
+shop.sapato22.info
+
+$(document).ready(function()
+{
+	$("body").mousemove(function()
+	{
+		$('.title').click(function()
+		{
+			var page = '?c=result&query=' + $(this).attr('id');
+
+			document.location = page;
+		});
+	});
+});

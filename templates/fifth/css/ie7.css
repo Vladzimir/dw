@@ -1,0 +1,17 @@
+.header ul.nav li
+{
+	zoom: 1;
+	display: inline;
+}
+
+.content .see-also ul li
+{
+	zoom: 1;
+	display: inline;
+}
+
+.footer ul.nav li
+{
+	zoom: 1;
+	display: inline;
+}

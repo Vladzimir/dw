@@ -1,0 +1,604 @@
+/************************************************************/
+/*					[RESET DEFAULT STYLES]					*/
+/************************************************************/
+html, body
+{
+	width: 100%;
+	height: 100%;
+	padding: 0px;
+	margin: 0px;
+}
+
+body
+{
+	background: #FFFFFF;
+	font: 14px/120% 'Tahoma';
+	color: #FFFFFF;
+}
+
+div, span, p, em, strong, ul, li, dl, dt, dd, form, fieldset, textarea, label, input, button, img, a, h1, h2, h3, h4, h5, h6, table, tr, td
+{
+	padding: 0px;
+	margin: 0px;
+	border: 0px;
+	outline: 0px;
+	list-style: none;
+	text-decoration: none;
+}
+
+/************************************************/
+/*					[CONTAINER]					*/
+/************************************************/
+.container
+{
+	background: url(../images/container-bg.png);
+}
+
+.container .header-wrap
+{
+	background: url(../images/header-wrap-bg.png) repeat-x;
+}
+
+/************************************************/
+/*					[HEADER]					*/
+/************************************************/
+.header
+{
+	width: 960px;
+	height: 220px;
+	margin: auto;
+}
+
+.header img.logo
+{
+	margin: 58px 12px;
+}
+
+.header ul.nav
+{
+	padding: 6px 0 0 20px;
+	float: left;
+}
+
+.header ul.nav li
+{
+	display: inline-block;
+	margin-right: 15px;
+	padding-right: 20px;
+	background: url(../images/header-nav-star.png) no-repeat right;
+}
+
+.header ul.nav li:last-child
+{
+	margin: 0;
+	padding: 0;
+	background: none;
+}
+
+.header ul.nav li a
+{
+	color: #FFFFFF;
+	text-shadow: #000000 1px 1px 2px;
+}
+
+.header ul.social-networks
+{
+	float: right;
+	margin-right: 6px;
+}
+
+.header ul.social-networks li
+{
+	display: inline-block;
+	margin: 2px 6px;
+}
+
+.header ul.social-networks li a span.facebook, .header ul.social-networks li a span.twitter
+{	
+	display: block;
+	height: 25px;
+	width: 25px;
+}
+
+.header ul.social-networks li a span.facebook
+{
+	background: url(../images/facebook.png) no-repeat;
+}
+
+.header ul.social-networks li a span.twitter
+{
+	background: url(../images/twitter.png) no-repeat;
+}
+
+/************************************************/
+/*					[CONTENT]					*/
+/************************************************/
+.content
+{
+	width: 960px;
+	margin: auto;
+	background-color: #333333;
+}
+
+/********************************************************************************************/
+/*					[HOME | ABOUT | CONTACT | PRIVACY | TERMS | SITEMAP]					*/
+/********************************************************************************************/
+.content .home, .about, .contact, .privacy, .terms, .sitemap
+{
+	width: 910px;
+	margin: auto;
+	padding: 20px 25px;
+}
+
+.content .home h1, .about h1, .contact h1, .privacy h1, .terms h1, .sitemap h1
+{
+	font-size: 32px;
+	color: #CCCCCC;
+	text-align: center;
+	text-transform: uppercase;
+	line-height: normal;
+	padding-bottom: 20px;
+}
+
+.content .home h2, .about h2, .contact h2, .privacy h2, .terms h2, .sitemap h2
+{
+	font-size: 20px;
+	color: #CCCCCC;
+	line-height: normal;
+	padding-bottom: 15px;
+}
+
+.content .home p, .about p, .contact p, .privacy p, .terms p
+{
+	font-size: 16px;
+	color: #FFFFFF;
+	text-align: justify;
+	padding-bottom: 10px;
+}
+
+.content .home a, .about a, .contact a, .privacy a, .terms a
+{
+	color: #CCCCCC;
+}
+
+.content .sitemap a
+{
+	color: #FFFFFF;
+}
+
+.content .sitemap ul li
+{
+	margin-bottom: 10px;
+}
+
+.content .sitemap ul li:before
+{
+	content: '» ';
+}
+
+/************************************************/
+/*					[PRODUCT]					*/
+/************************************************/
+.content .product
+{
+	padding-top: 20px;
+	margin-bottom: 20px;
+}
+
+.content .product .tpb
+{
+	margin: 0 -10px;
+	padding: 15px 20px;
+	background-color: #990033;
+}
+
+.content .product span.l, .content .product span.r
+{
+	display: block;
+	width: 10px;
+	height: 8px;
+}
+
+.content .product span.l
+{
+	margin-left: -10px;
+	background: url(../images/left-decor.png) left bottom no-repeat;
+	float: left;
+}
+
+.content .product span.r
+{
+	margin-right: -10px;
+	background: url(../images/right-decor.png) right bottom no-repeat;
+	float: right;
+}
+
+.content .product .tpb h1
+{
+	display: inline-block;
+	width: 444px;
+	font: 24px/100% "Georgia";
+	text-shadow: #000000 1px 1px 2px;
+	vertical-align: middle;
+}
+
+.content .product .tpb p
+{
+	display: inline-block;
+	margin: 0 30px 0 20px;
+}
+
+.content .product .tpb p span.price
+{
+	font-size: 24px;
+	font-weight: bold;
+}
+
+.content .product .tpb a
+{
+	display: inline-block;
+}
+
+.content .product .tpb span.button
+{
+	display: inline-block;
+	width: 160px;
+	height: 36px;
+	background: url(../images/content-button.png) no-repeat;
+	vertical-align: middle;
+	cursor: pointer;
+}
+
+.content .product .tpb img.admitad
+{
+	display: none;
+}
+
+.content .product a.photo img
+{
+	width: 290px;
+	height: 433px;
+	margin: 20px;
+	float: left;
+	cursor: move;
+}
+
+.content .product ul
+{
+	display: inline-block;
+	margin: 20px 50px 0 0;
+}
+
+.content .product ul li
+{
+	width: 135px;
+	margin-bottom: 14px;
+	text-align: center;
+	
+}
+.content .product ul li a img
+{
+	width: 135px;
+	height: 200px;
+}
+
+.content .product ul li h2
+{
+	font-size: 14px;
+	font-weight: normal;
+}
+
+.content .product .description
+{
+	width: 400px;
+	padding-right: 40px;
+	margin-top: 20px;
+	font-size: 11px;
+	float: right;
+}
+
+.content .product .description dt
+{
+	color: #CCCCCC;
+	float: left;
+}
+
+.content .product .description dd
+{
+	display: block;
+	margin: 0 0 0 150px;
+}
+
+.content .product .description p
+{
+	padding: 5px 0;
+}
+
+/****************************************************************/
+/*					[SEE ALSO | LAST UPDATES]					*/
+/****************************************************************/
+.content .see-also
+{
+	display: inline-block;
+	width: 470px;
+	background-color: #202020;
+}
+
+.content .last-updates
+{
+	margin: auto;
+	background-color: #202020;
+}
+
+.content .see-also h2, .last-updates h2
+{
+	margin-left: -10px;
+	padding: 10px 20px;
+	background-color: #990033;
+	font: 16px/120% "Georgia";
+	text-shadow: #000000 1px 1px 2px;
+}
+
+.content .last-updates h2
+{
+	margin-right: -10px;
+}
+
+.content .see-also span.l, .content .last-updates span.l
+{
+	display: block;
+	width: 10px;
+	height: 8px;
+	margin-left: -10px;
+	background: url(../images/left-decor.png) left bottom no-repeat;
+	float: left;
+}
+
+.content .last-updates span.r
+{
+	display: block;
+	width: 10px;
+	height: 8px;
+	margin-right: -10px;
+	background: url(../images/right-decor.png) right bottom no-repeat;
+	float: right;
+}
+
+.content .see-also ul
+{
+	padding: 15px 20px;
+}
+
+.content .last-updates ul
+{
+	padding: 15px 50px;
+}
+
+.content .see-also ul li, .last-updates ul li
+{
+	display: inline-block;
+	width: 100px;
+	margin: 5px 2px;
+	padding-bottom: 5px;
+	background-color: #292929;
+	vertical-align: top;
+	text-align: center;
+	color: #999999;
+}
+
+.content .see-also ul li:hover
+{
+	background-color: #333333;
+	color: #FFFFFF;
+}
+
+.content .last-updates ul li:hover
+{
+	background-color: #333333;
+	color: #FFFFFF;
+}
+
+.content .see-also ul li img, .last-updates ul li img
+{
+	width: 100px;
+	height: 150px;
+	border-bottom: 2px solid #990033;
+	cursor: pointer;
+}
+
+.content .see-also ul li.large
+{
+	width: 212px;
+	margin: 0;
+}
+
+.content .see-also ul li.large img
+{
+	width: 210px;
+	height: 310px;
+}
+
+.content .see-also ul li p,.last-updates ul li
+{
+	padding-bottom: 4px;
+	color: #FFFFFF;
+}
+
+.content .see-also ul li p span.price,.last-updates ul li p span.price
+{
+	font: 18px/120% "Georgia";
+	color: #FFFFFF;
+}
+
+.content .see-also ul li h3, .content .see-also ul li span, .content .last-updates ul li h3, .content .last-updates ul li span
+{
+	font-size: 11px;
+	font-weight: normal;
+}
+
+/************************************************/
+/*					[COMMENTS]					*/
+/************************************************/
+.content .comments
+{
+	display: inline-block;
+	width: 470px;
+	float: right;
+}
+
+.content .comments h2
+{
+	margin-right: -10px;
+	padding: 10px 20px;
+	background-color: #990033;
+	font: 16px/120% "Georgia";
+	text-shadow: #000000 1px 1px 2px;
+}
+
+.content .comments span.r
+{
+	display: block;
+	width: 10px;
+	height: 8px;
+	margin-right: -10px;
+	background: url(../images/right-decor.png) right bottom no-repeat;
+	float: right;
+}
+
+.content .comments h2.feedback
+{
+	margin: 40px -10px 0 0;
+}
+
+.content .comments ul
+{
+	background-color: #292929;
+}
+
+.content .comments ul li
+{
+	min-height: 60px;
+	padding: 20px;
+	background-color: #202020;
+	font-size: 12px;
+}
+.content .comments ul li img
+{
+	width: 60px;
+	height: 60px;
+	margin: 0 20px 20px 0;
+	float: left;
+}
+
+.content .comments ul li span
+{
+	font-weight: bold;
+	line-height: 1.35em;
+	color: #990033;
+}
+
+.content .comments ul p
+{
+	margin: 10px 0 0 80px;
+	line-height: 1.5em;
+}
+
+.content .comments form
+{
+	margin-top: 20px;
+	padding-right: 26px;
+}
+
+.content .comments form p
+{
+	margin-bottom: 15px;
+}
+
+.content .comments form img
+{
+	width: 100px;
+	height: 36px;
+	margin: 0 80px 0 18px;
+	vertical-align: middle;
+}
+
+.content .comments form input, .content .comments form textarea
+{
+	padding: 10px;
+	border: 1px solid #212121;
+	border-radius: 4px;
+	background-color: #666666;
+	font: 14px/120% "Tahoma";
+	color: #FFFFFF;
+}
+
+.content .comments form input[name=author]
+{
+	width: 200px;
+}
+
+.content .comments form textarea
+{
+	width: 420px;
+	height: 100px;
+}
+
+.content .comments form input[name=captcha]
+{
+	width: 80px;
+}
+
+.content .comments form button
+{
+	width: 140px;
+	height: 36px;
+	background: url(../images/comments-button.png) no-repeat;
+	cursor: pointer;
+	vertical-align: middle;
+}
+
+.content .comments form input.error, .content .comments form textarea.error
+{
+	border: 1px solid #FF0000;
+}
+
+.content .end
+{
+	clear: both;
+}
+
+/************************************************/
+/*					[FOOTER]					*/
+/************************************************/
+.footer 
+{
+	width: 960px;
+	height: 80px;
+	margin: auto;
+	padding-top: 50px;
+}
+
+.footer ul.nav
+{
+	float: left;
+	margin-left: 150px;
+	padding-top: 30px;
+}
+
+.footer ul.nav li
+{
+	display: inline-block;
+	margin-right: 30px;
+	vertical-align: top;
+}
+
+.footer ul.nav li a
+{
+	font-size: 11px;
+	color: #CCCCCC;
+}
+
+.footer img.logo
+{
+	float: right;
+}

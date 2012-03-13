@@ -1,0 +1,468 @@
+/************************************************************/
+/*					[RESET DEFAULT STYLES]					*/
+/************************************************************/
+html, body
+{
+	width: 100%;
+	height: 100%;
+	padding: 0px;
+	margin: 0px;
+}
+
+body
+{
+	background: #FFFFFF;
+	font: 14px/120% 'Arial';
+	color: #000000;
+}
+
+div, span, p, em, strong, ul, li, dl, dt, dd, form, fieldset, textarea, label, input, button, img, a, h1, h2, h3, h4, h5, h6, table, tr, td
+{
+	padding: 0px;
+	margin: 0px;
+	border: 0px;
+	outline: 0px;
+	list-style: none;
+	text-decoration: none;
+}
+
+/************************************************/
+/*					[CONTAINER]					*/
+/************************************************/
+.container
+{
+	background: url(../images/container-bg.png) repeat-x;
+}
+
+.container .header-wrap
+{
+	background: url(../images/header-wrap-bg.png) repeat-x;
+}
+
+.container .footer-wrap
+{
+	background: url(../images/footer-wrap-bg.png) repeat-x;
+}
+
+/************************************************/
+/*					[HEADER]					*/
+/************************************************/
+.header
+{
+	width: 960px;
+	height: 100px;
+	margin: auto;
+}
+
+.header img.logo
+{
+	float: left;
+}
+
+.header ul.nav
+{
+	margin: 26px 0 0 205px; 
+	border-style: solid;
+	border-width: 2px 0 2px 0;
+	border-color: #663333;
+	padding: 2px 0;
+	float: left;
+}
+
+.header ul.nav li
+{
+	display: inline-block;
+	height: 40px;
+	margin-right: 25px;
+	padding-right: 15px;
+	background: url(../images/header-nav-square.png) right no-repeat;
+}
+
+.header ul.nav li:last-child
+{
+	margin: 0;
+	padding: 0;
+	background: 0;
+}
+
+.header ul.nav li a
+{
+	display: block;
+	color: #FFFFFF;
+	padding: 11px 10px;
+}
+
+.header ul.nav li a:hover
+{
+	background-color: #515151;
+}
+
+.header ul.social-networks
+{
+	float: right;
+	margin-top: 38px;
+}
+
+.header ul.social-networks li
+{
+	display: inline-block;
+	margin-left: 7px;
+}
+
+.header ul.social-networks li a span.facebook, .header ul.social-networks li a span.twitter
+{	
+	display: block;
+	height: 25px;
+	width: 25px;
+}
+
+.header ul.social-networks li a span.facebook
+{
+	background: url(../images/facebook.png) no-repeat;
+}
+
+.header ul.social-networks li a span.twitter
+{
+	background: url(../images/twitter.png) no-repeat;
+}
+
+/************************************************/
+/*					[CONTENT]					*/
+/************************************************/
+.content
+{
+	width: 960px;
+	margin: auto;
+}
+
+.content .end
+{
+	clear: both;
+}
+
+/************************************************/
+/*					[SLIDER]					*/
+/************************************************/
+.content .slider
+{
+	margin: 30px 0;
+}
+
+.content .slider ul li
+{
+	display: inline-block;
+	margin-right: 22px;
+}
+
+.content .slider ul li:last-child
+{
+	margin: 0;
+}
+
+/************************************************/
+/*					[PRODUCT]					*/
+/************************************************/
+.content .left
+{
+	float: left;
+}
+
+.content .right
+{
+	float: right;
+}
+
+.content .left .wrap
+{
+	width: 250px;
+	border: 1px solid #CCCCCC;
+	padding: 15px 50px 30px;
+}
+
+.content .left .wrap img
+{
+	width: 250px;
+	height: 390px;
+}
+
+.content .left .wrap ul
+{
+	margin-top: 50px;
+}
+
+.content .left .wrap ul li
+{
+	display: inline-block;
+	width: 100px;
+	margin-right: 44px;
+	text-align: center;
+}
+
+.content .left .wrap ul li:last-child
+{
+	margin: 0;
+}
+
+.content .left .wrap ul li img
+{
+	width: 100px;
+	height: 120px;
+}
+
+.content .left .wrap ul li h2
+{
+	padding: 10px 0;
+	font: 13px/1.2em "Myriad Pro";
+}
+
+.content .right .tpb
+{
+	width: 558px;
+}
+
+.content .right .tpb h1
+{
+	padding: 0 0 10px 10px;
+	background: url(../images/content-line.png) bottom no-repeat;
+	font-size: 26px;
+	font-weight: normal;
+	line-height: 1.2em;
+	color: #2B5879;
+}
+
+.content .right .tpb p
+{
+	margin: 15px 215px -32px 0;
+	font-size: 16px;
+	color: #333333;
+	text-align: right;
+}
+
+.content .right .tpb p span.price
+{
+	font: 28px/1.2em "Georgia";
+}
+
+.content .right .tpb button
+{
+	width: 162px;
+	height: 34px;
+	margin: 0 35px 0 360px;
+	background: url(../images/product-button.png) no-repeat;
+	vertical-align: middle;
+	cursor: pointer;
+}
+
+.content .right .description
+{
+	width: 516px;
+	border: 1px solid #CCCCCC;
+	padding: 20px;
+	background: url(../images/product-description.png) top right #F7F6F1 no-repeat;
+}
+
+/************************************************/
+/*					[COMMENTS]					*/
+/************************************************/
+.content .left .comments
+{
+	width: 350px;
+	margin-top: 40px;
+}
+
+.content .left .comments h2
+{
+	margin-bottom: 10px;
+	font-size: 22px;
+	font-weight: normal;
+	line-height: 1.2em;
+	color: #2B587A;
+}
+
+.content .left .comments ul
+{
+	border: 1px solid #CCCCCC;
+	background-color: #E8E8E8;
+}
+
+.content .left .comments ul li
+{
+	border-bottom: 1px solid #CCCCCC;
+	padding: 15px 25px;
+}
+
+.content .left .comments ul li:last-child
+{
+	border: none;
+}
+
+.content .left .comments ul li img
+{
+	width: 32px;
+	height: 32px;
+	margin-right: 10px;
+	border: 1px solid #CCCCCC;
+	float: left;
+}
+
+.content .left .comments ul li span
+{
+	vertical-align: top;
+}
+
+.content .left .comments ul li p
+{
+	margin: 10px 0 0 44px; 
+}
+
+.content .left .form h2
+{
+	margin: 20px 0 10px 5px;
+	font-size: 22px;
+	font-weight: normal;
+	line-height: 1.2em;
+}
+
+.content .left .form p
+{
+	margin-bottom: 15px;
+}
+
+.content .left .form img
+{
+	width: 100px;
+	height: 40px;
+	margin: 0 18px;
+	vertical-align: top;
+}
+
+.content .left .form input, .content .left .form textarea
+{
+	width: 328px;
+	padding: 10px;
+	border: 1px solid #CCCCCC;
+	font: 13px/1.2em "Arial";
+}
+
+.content .left .form input[name=captcha]
+{
+	width: 40px;
+}
+
+.content .left .form textarea
+{
+	height: 100px;
+}
+
+.content .left .form button
+{
+	width: 150px;
+	height: 34px;
+	border: 1px solid #CCCCCC;
+	font: 16px/1.2em "Arial";
+	cursor: pointer;
+}
+
+.content .left .form input.error, .content .left .form textarea.error
+{
+	border: 1px solid #FF0000;
+	background: #FFEEEE;
+}
+
+/************************************************/
+/*					[SEE-ALSO]					*/
+/************************************************/
+.content .right .see-also
+{
+	width: 556px;
+	margin-top: 40px;
+}
+
+.content .right .see-also h2
+{
+	padding: 0 0 10px 10px;
+	background: url(../images/content-line.png) bottom no-repeat;
+	font-size: 26px;
+	font-weight: normal;
+	line-height: 1.2em;
+	color: #2B5879;
+}
+
+.content .right .see-also ul
+{
+	padding: 10px 0;
+}
+
+.content .right .see-also ul li
+{
+	display: inline-block;
+	width: 130px;
+	margin: 0 3px 25px;
+	text-align: center;
+	vertical-align: top;
+}
+
+.content .right .see-also ul li img
+{
+	width: 120px;
+	height: 120px;
+}
+
+.content .right .see-also ul li.large
+{
+	width: 270px;
+}
+
+.content .right .see-also ul li.large img
+{
+	width: 250px;
+	height: 250px;
+	border: 1px solid #CCCCCC;
+}
+
+.content .right .see-also ul li h3, .content .right .see-also ul li span
+{
+	padding: 5px 0;
+	font: 13px/1em "Myriad Pro";
+}
+
+.content .right .see-also ul li p
+{
+	font: 11px/1.2em "Myriad Pro";
+	color: #2B587A;
+}
+
+.content .right .see-also ul li p span.price
+{
+	font-size: 20px;
+}
+
+/************************************************/
+/*					[FOOTER]					*/
+/************************************************/
+.footer
+{
+	width: 960px;
+	height: 100px;
+	margin: auto;
+}
+
+.footer ul.nav
+{
+	margin-top: 40px;
+	float: right;
+}
+
+.footer ul.nav li
+{
+	display: inline-block;
+	margin-left: 20px;
+	font: 11px/1.2em "Tahoma";
+	color: #666666;
+	vertical-align: middle;
+}
+
+.footer ul.nav li a
+{
+	color: #666666;
+}
