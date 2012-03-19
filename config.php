@@ -1,41 +1,62 @@
 <?php
 
 #===================
-# Файл конфигураций. 
+# Файл конфигураций.
 #===================
 
 $domains = array();
 
-$domains[0]['domain'] = 'obuv.elitno.net';
-$domains[0]['name'] = 'Большой выбор обуви';
-$domains[0]['template'] = 'templates/sixth/';
-$domains[0]['admitad'] = 'http://ad.admitad.com/goto/1899e0cf072b1ee174ca43b8fa8c2a';
+$domains[0]['domain'] = 'garderob5.info';
+$domains[0]['name'] = 'Каталог одежды';
+$domains[0]['template'] = 'templates/first/';
+$domains[0]['admitad'] = 'http://ad.admitad.com/goto/499ce9e0462b1ee174ca4a2f625b4f';
 
-$domains[1]['domain'] = 'tufli.elitno.net';
-$domains[1]['name'] = 'Женские элитные туфли';
-$domains[1]['template'] = 'templates/third/';
+$domains[1]['domain'] = 'shop.promenad22.info';
+$domains[1]['name'] = 'Скидки и распродажа';
+$domains[1]['template'] = 'templates/second/';
 $domains[1]['admitad'] = 'http://ad.admitad.com/goto/499ce9e0462b1ee174ca4a2f625b4f';
 
-$domains[2]['domain'] = 'sapogi.elitno.net';
-$domains[2]['name'] = 'Весенние сапоги';
-$domains[2]['template'] = 'templates/fourth/';
+$domains[2]['domain'] = 'store.sapato22.info';
+$domains[2]['name'] = 'Акции и распродажи';
+$domains[2]['template'] = 'templates/third/';
 $domains[2]['admitad'] = 'http://ad.admitad.com/goto/499ce9e0462b1ee174ca4a2f625b4f';
 
 /*
-$domains[0]['domain'] = 'klimattech.elitno.net';
-$domains[0]['name'] = 'Климатическая техника';
-$domains[0]['template'] = 'templates/tenth/';
+$domains[0]['domain'] = 'shop.garderob5.info';
+$domains[0]['name'] = 'Каталог акций и распродаж';
+$domains[0]['template'] = 'templates/first/';
+$domains[0]['admitad'] = 'http://ad.admitad.com/goto/499ce9e0462b1ee174ca4a2f625b4f';
 
-$domains[0]['domain'] = 'hometech.elitno.net';
-$domains[0]['name'] = 'Техника для дома';
-$domains[0]['template'] = 'templates/tenth/';
+$domains[1]['domain'] = 'store.promenad22.info';
+$domains[1]['name'] = 'Скидки и акции';
+$domains[1]['template'] = 'templates/second/';
+$domains[1]['admitad'] = 'http://ad.admitad.com/goto/499ce9e0462b1ee174ca4a2f625b4f';
 
-$domains[0]['domain'] = 'kitchentech.elitno.net';
-$domains[0]['name'] = 'Кухонная техника';
-$domains[0]['template'] = 'templates/tenth/';
+$domains[2]['domain'] = 'sapato22.info';
+$domains[2]['name'] = 'Одежда по скидкам';
+$domains[2]['template'] = 'templates/third/';
+$domains[2]['admitad'] = 'http://ad.admitad.com/goto/499ce9e0462b1ee174ca4a2f625b4f';
+
+$domains[0]['domain'] = 'store.garderob5.info';
+$domains[0]['name'] = 'Акции и распродажи';
+$domains[0]['template'] = 'templates/first/';
+$domains[0]['admitad'] = 'http://ad.admitad.com/goto/499ce9e0462b1ee174ca4a2f625b4f';
+
+$domains[1]['domain'] = 'promenad22.info';
+$domains[1]['name'] = 'Распродажа одежды';
+$domains[1]['template'] = 'templates/second/';
+$domains[1]['admitad'] = 'http://ad.admitad.com/goto/499ce9e0462b1ee174ca4a2f625b4f';
+
+$domains[2]['domain'] = 'shop.sapato22.info';
+$domains[2]['name'] = 'Акции распродажи скидки';
+$domains[2]['template'] = 'templates/third/';
+$domains[2]['admitad'] = 'http://ad.admitad.com/goto/499ce9e0462b1ee174ca4a2f625b4f';
 */
+
 define('DOMAINS', serialize($domains));
-define('KEYWORDS', 'keywords/obuv.txt');
-define('CSV', 'csv.csv');
+define('KEYWORDS', 'keywords/.txt');
+define('CSV', '1.csv');
+//define('CSV', '2.csv');
+//define('CSV', '3.csv');
 
 /* End of file config.php */
