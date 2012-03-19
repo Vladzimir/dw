@@ -54,8 +54,8 @@ $domains[2]['admitad'] = 'http://ad.admitad.com/goto/499ce9e0462b1ee174ca4a2f625
 */
 
 define('DOMAINS', serialize($domains));
-define('KEYWORDS', 'keywords/.txt');
-define('CSV', '1.csv');
+define('KEYWORDS', 'keywords/keywords2.txt');
+define('CSV', 'csv/1.csv');
 //define('CSV', '2.csv');
 //define('CSV', '3.csv');
 

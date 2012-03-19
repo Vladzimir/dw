@@ -15,7 +15,7 @@ class Comments
 	public function AutoComment($page, $title)
 	{
 		$percent = rand(1, 100);
-		if ($percent < 1)
+		if ($percent < 55)
 		{
 			$file = strstr($page, '.', true) . '-comments.php';
 			$string = '<li><span><strong>' . $this->GetNick() . '</strong> в <strong>' . $this->GetTime() . '</strong> написал(a):</span><img src="' . $this->GetAvatar() . '" alt="avatar"><p>' . $this->GetComment($title) . '</p></li>' . "\n";

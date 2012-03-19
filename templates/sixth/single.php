@@ -2,17 +2,17 @@
 	session_start();
 
 	error_reporting(0);
-	
+
 	require_once "comments.php";
-	
+
 	$go = new Comments(); 
 	$go->AutoComment("' . $uri . '","' . $keyword . '");
-	
+
 	if (!empty($_POST["author"]) && !empty($_POST["comment"]) && !empty($_POST["captcha"]))
 	{
 		$nick = $_POST["author"];
 		$comment = $_POST["comment"];
-		
+
 		if ($_SESSION["captcha"] == $_POST["captcha"])
 		{
 			$go->UserComment("' . $uri . '", $nick, $comment);
@@ -34,7 +34,7 @@
 		<meta name="description" content="<?= $keyword ?><?= mb_substr(preg_replace('/<.+?>/', ' ', $description), 0, 80, 'UTF-8') ?>...">
 		<link type="text/css" rel="stylesheet" href="css/styles.css">
 		<link type="text/css" rel="stylesheet" href="css/lightbox.css">
-		
+
 		<script type="text/javascript" src="js/jquery.min.js"></script>
 		<script type="text/javascript" src="js/lightbox.min.js"></script>
 		<script type="text/javascript" src="js/validator.js"></script>
@@ -93,7 +93,7 @@
 							<? endif; ?>
 							</li>
 						<? endfor; ?>
-							
+
 						<? for($i = 6; $i < 8; $i++): ?>
 							<li class="large">
 								<img class="without" src="photos/<?= $links[$i]['image'] ?>" alt="<?= mb_substr(strrchr($links[$i]['uri'], '/'), 1, -4, 'UTF-8') ?>" title="<?= $links[$i]['keyword'] ?> <?= $links[$i]['title'] ?>">
@@ -101,6 +101,7 @@
 								<p>от <span class="price"><?= $links[$i]['price'] ?></span>р.</p>
 							</li>
 						<? endfor; ?>
+
 						<? for($i = 8; $i < count($links); $i++): ?>
 						<li>
 							<img class="without" src="photos/<?= $links[$i]['image'] ?>" alt="<?= mb_substr(strrchr($links[$i]['uri'], '/'), 1, -4, 'UTF-8') ?>" title="<?= $links[$i]['keyword'] ?> <?= $links[$i]['title'] ?>">
